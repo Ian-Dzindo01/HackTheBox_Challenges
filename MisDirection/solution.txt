@@ -1,0 +1,1 @@
+Extract the files, you will find a .secret folder in which you will find plenty of letters and folders. After rearraning them in the written order, you will get a string which you will have to decode from base64 to get the final flag.

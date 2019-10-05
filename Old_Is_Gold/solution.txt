@@ -1,0 +1,4 @@
+Use John The Ripper with the rockyou wordlist to crack the password, which is jumanji69.
+Once you open the pdf file you will see a picture of a guy, below who there is a small line of dots and lines which is Morse code you have to translate.
+Once you translate the text you will find the flag which is HTB{R1PSAMU3LM0RS3}
+

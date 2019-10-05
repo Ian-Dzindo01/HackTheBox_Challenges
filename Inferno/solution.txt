@@ -1,0 +1,2 @@
+Since there is an equal sign at the end of the message we decode the message from base64.
+After that you will get something which looks like gibberish but it is actually useful Malbolge code.

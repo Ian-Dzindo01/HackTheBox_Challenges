@@ -1,0 +1,3 @@
+Upon extracting you will see a hawking file. Use the file command on it to see that it is a jpg file. Change the extension to that. 
+After that use steghide -sf hawking.jpg, with the password hawking, which is guessed.
+You will get a flag.txt file which you will have to run through a base64 decoder twice.

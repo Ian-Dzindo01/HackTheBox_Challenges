@@ -1,0 +1,2 @@
+Extract the image. Upload it to a piet language interpreter and you will get the flag.
+
