@@ -1,0 +1,14 @@
+Opened the website, tried to brute force with various wordlists, but it doesn't seem to work.
+
+Going to try SQL injections.
+105 OR 1=1 - tried this but it doesn't seem to work
+
+Tried just typing
+username = '
+password = '-
+
+Gave me a webpage which says Cartographer is still under construction!
+
+Ran dirb on the website!
+
+Found a page info=flag which contains the flag.
