@@ -1,4 +1,0 @@
-You have to write a python script which will unlock the file with the name of the next file. Although i do not know how to get the name of the file which is stored inside.
-
-Q: Why doesn't John load my password file? It says "No password hashes loaded", "No password hashes loaded (see FAQ)", or "No password hashes left to crack (see FAQ)".
-A: Your password file taken from a Unix-like system might be shadowed. You need to get both /etc/passwd and the shadow file (typically /etc/shadow or /etc/master.passwd), and combine them into one file using "unshadow" (which is supplied with John). Please refer to EXAMPLES.

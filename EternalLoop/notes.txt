@@ -1,0 +1,11 @@
+Used the script.sh file to extract all the files embedded inside.
+
+The last file extracted is 6969.zip. Use this command to crack the password of the file:
+
+fcrackzip -v -D -u -p /usr/share/wordlists/rockyou.txt 6969.zip
+
+You get a file named DoNotTouch. It is a SQL 3.x database file.
+
+You can use strings DoNotTouch | grep 'HTB' to extract the flag that you need.
+
+The flag is HTB{z1p_and_unz1p_ma_bruddahs}
