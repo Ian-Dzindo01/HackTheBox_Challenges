@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Dec 23 09:46:45 2019
+Invocation: foremost socute.jpg 
+Output directory: /root/Documents/HackTheBox/Longbottoms_Locker/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: socute.jpg
+Start: Mon Dec 23 09:46:45 2019
+Length: 97 KB (99596 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      95 KB 	          0 	 
+1:	00000190.zip 	       2 KB 	      97465 	 
+Finish: Mon Dec 23 09:46:45 2019
+
+2 FILES EXTRACTED
+	
+jpg:= 1
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Dec 23 09:46:45 2019
