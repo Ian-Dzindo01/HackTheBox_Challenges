@@ -1,0 +1,30 @@
+First let's try using gobuster and dirbuster on this website.
+Gobuster doesn't seem to work, dirb doesn't find anything with the regular wordlist, but we're going to try the medium wordlist.
+
+The challenge name might be giving us a hint to use something like wfuzz.
+
+We found a /api directory inside of which there was an action.php.
+
+Upon opening that file we see the following:
+
+Error: Parameter not set.
+
+Been stuck here for a while.
+
+So now we need to find the GET parameter which will be used at this endpoint - found this online, whatever this means.
+
+We are going to use wfuzz to find the required parameter. This is the command we are going to use:
+
+wfuzz --hh=24 -c  -w /usr/share/dirb/wordlists/big.txt http://docker.hackthebox.eu:32087/api/action.php?FUZZ=test
+
+We found that the keyword is reset. Upon opening the link with the reset keyword, we get this:
+
+Error: Account ID not found.
+
+Let's find the Account ID.
+
+We are going to use this command to find the Account ID:
+
+wfuzz --hh=27 -c  -w /usr/share/dirb/wordlists/big.txt http://docker.hackthebox.eu:32087/api/action.php?reset=FUZZ
+
+Upon running this you will receive the flag!
