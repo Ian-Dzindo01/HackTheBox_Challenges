@@ -1,3 +1,0 @@
-Opened the webpage, found that you loging in with the wrong credentials gives you wrong message.
-
-Going to try doing something with burpsuite.

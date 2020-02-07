@@ -1,0 +1,4 @@
+Opened the webpage, found that you loging in with the wrong credentials gives you wrong message.
+Intercepted with burpsuite and found that it is using a POST request.
+
+Going to try bruteforcing the password with hydra or jacktheripper.
